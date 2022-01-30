@@ -1,4 +1,4 @@
-<!-- ![npm (scoped)](https://img.shields.io/npm/v/@metreeca/tool) -->
+[![npm](https://img.shields.io/npm/v/@metreeca/tool)](https://www.npmjs.com/package/@metreeca/tool)
 
 # Metreeca/Tool
 
