@@ -1,7 +1,4 @@
-/@*
+/@
 
 /dist/
 /node_modules/
-
-/package.lst
-/package.tar
