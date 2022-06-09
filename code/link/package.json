@@ -1,0 +1,9 @@
+{
+    "name": "@metreeca/link",
+    "version": "0.0.0",
+    "description": "React JSON-LD connector",
+    "main": "../../work/link/index.ts",
+    "dependencies": {
+        "@metreeca/tool": "^0.0.0"
+    }
+}

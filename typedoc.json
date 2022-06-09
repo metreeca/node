@@ -1,0 +1,9 @@
+{
+    "out": "docs/types",
+    "readme": "README.md",
+    "entryPointStrategy": "Packages",
+    "excludeNotDocumented": true,
+    "validation": {
+        "invalidLink": true
+    }
+}

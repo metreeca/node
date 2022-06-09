@@ -1,0 +1,17 @@
+{
+    "name": "@metreeca/tool",
+    "version": "0.0.0",
+    "description": "Shared React definitions and utilities",
+    "main": "../../../../Projects/EC2U/Data/src/main/javascript/@metreeca/tool/index.ts",
+    "dependencies": {
+        "@metreeca/core": "^0.0.0"
+    },
+    "peerDependencies": {
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0"
+    }
+}

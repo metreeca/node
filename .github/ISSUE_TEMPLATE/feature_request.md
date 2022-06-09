@@ -1,23 +1,28 @@
 ---
-name: "Feature request"
+name: "Feature Request"
 about: "Suggest an idea for this project"
-title: ""
-labels: ""
+title: "What's missing from @metreeca/node?"
+labels: "Story"
 assignees: ""
 ---
 
-**Is your feature request related to a problem or a specific use case?**
 
-A clear and concise description of what the problem or the use case is. E.g. I'm always frustrated when [...]
+**challenge / use case**
 
-**Describe the solution you'd like**
+*What is the challenge you are facing or the use case you are proposing?*
 
-A clear and concise description of what you want to happen.
+**proposal**
 
-**Describe alternatives you've considered**
+*What features would you like to see implemented?*
 
-A clear and concise description of any alternative solutions or features you've considered.
+**alternatives**
 
-**Additional context**
+*Have you considered any alternative solutions or approaches?*
 
-Add any other context about the feature request here.
+**notes**
+
+*Would you share any consideration or additional context about the request?*
+
+**screenshots / wireframes**
+
+*Are you able to document the request with screenshots and/or wireframes?*

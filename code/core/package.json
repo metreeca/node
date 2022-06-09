@@ -1,0 +1,6 @@
+{
+    "name": "@metreeca/core",
+    "version": "0.0.0",
+    "description": "Shared TypeScript definitions and utilities",
+    "main": "../../../../Projects/EC2U/Data/src/main/javascript/@metreeca/core/index.ts"
+}

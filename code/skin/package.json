@@ -1,0 +1,12 @@
+{
+    "name": "@metreeca/skin",
+    "version": "0.0.0",
+    "description": "React standard skins",
+    "main": "../../../../Projects/EC2U/Data/src/main/javascript/@metreeca/skin/index.ts",
+    "dependencies": {
+        "@metreeca/tool": "^0.0.0"
+    },
+    "peerDependencies": {
+        "lucide-react": "^0.60.0"
+    }
+}

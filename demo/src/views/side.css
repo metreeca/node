@@ -1,0 +1,91 @@
+/*
+ * Copyright © 2020-2022 Metreeca srl
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+:root {
+
+    --node-side-width: auto;
+    --node-side-count: 0;
+
+}
+
+node-side {
+
+    display: grid;
+
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content repeat(var(--node-side-count), min-content) 1fr;
+
+    grid-column-gap: 0.25em;
+    grid-row-gap: 0.25em;
+
+    overflow: hidden;
+    width: var(--node-side-width);
+
+    border-right-style: solid;
+
+    &.collapsed {
+
+        & > * {
+            & > * {
+                & > :last-child {
+                    width: 0;
+                }
+            }
+        }
+    }
+
+    & > * {
+
+        display: contents;
+
+        & > * {
+
+            display: contents;
+
+            & > * {
+                align-self: center;
+            }
+
+            & > :first-child {
+                justify-self: center;
+            }
+
+            & > :last-child {
+                justify-self: start;
+            }
+
+        }
+
+    }
+
+
+    & > header {
+
+    }
+
+    & > footer {
+
+        & > * {
+
+            & > * {
+                align-self: end;
+            }
+
+        }
+
+    }
+
+}

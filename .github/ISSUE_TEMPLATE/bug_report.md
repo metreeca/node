@@ -1,38 +1,39 @@
 ---
-name: "Bug report"
+name: "Bug Report"
 about: "Create a report to help us improve"
-title: ""
-labels: ""
+title: "What's wrong with @metreeca/node?"
+labels: "Issue"
 assignees: ""
 ---
 
-**Environment**
 
-- metreeca/tool: version
-- operating system: name/version
-- browser: vendor/version
+**environment**
 
-**Description**
+- @metreeca/node: *version*
+- operating system: *name/version*
+- browser: *vendor/version*
 
-A clear and concise description of what the bug is.
+**steps to reproduce**
 
-**How To Reproduce**
+1. …
+2. …
 
-- Step to reproduce the behaviour;
-- …
+**expected behaviour**
 
-**Expected behaviour**
+*What did you expect to happen?*
 
-A clear and concise description of what you expected to happen.
+**actual behaviour**
 
-**Actual behaviour**
+*What did actually happen?*
 
-A clear and concise description of what actually happens
+**workarounds**
 
-**Workarounds**
+*Did you find any workaround for the bug?*
 
-Share any workaround you found for the bug.
+**notes**
 
-**Notes**
+*Would you share any observation or additional context about the bug?*
 
-Additional observations and any other context about the bug.
+**screenshots /recordings**
+
+*Are you able to document the issue with screenshot and/or recordings?*

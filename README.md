@@ -1,29 +1,28 @@
 [![npm](https://img.shields.io/npm/v/@metreeca/core)](https://www.npmjs.com/package/@metreeca/core)
 
-# @metreeca/node
+# Metreeca/Node
 
 Metreeca/Node is a model‑driven Node/React framework for rapid REST/JSON‑LD development.
 
-Its client modules support declarative model‑driven CRUD forms, infographics and self-service analytics built on top of
-model‑driven REST/JSON‑LD APIs published either with the integrated Node.js server modules or the
+Its client modules support declarative model‑driven React interfaces, infographics and self-service analytics built on
+top of model‑driven REST/JSON‑LD APIs published either with the (upcoming…) integrated Node.js server modules or the
 the [Metreeca/Java](https://github.com/metreeca/java) framework.
 
-While collectively providing a floor-to-ceiling fulls‑stack development solution, Metreeca/Node modules are 
-loosely coupled and may be easily plugged as a specialized component into your toolkit of choice.
+While collectively providing a floor-to-ceiling fulls‑stack development solution, Metreeca/Node modules are loosely
+coupled and may be easily plugged as a specialized component into your toolkit of choice.
 
 # Modules
 
 |   area | docs            | description |
 | -----: | :-------------- | :---------- |
-| common | [@metreeca/core](https://metreeca.github.io/node/docs/types/modules/_metreeca_core.html) |             |
-|        | @metreeca/json  |             |
+| shared | [@metreeca/core](https://metreeca.github.io/node/docs/types/modules/_metreeca_core.html) |             |
 |        | @metreeca/link  |             |
-| server | @metreeca/rest  |             |
-| client | @metreeca/hook  |             |
+| client | @metreeca/head  |             |
 |        | @metreeca/nest  |             |
 |        | @metreeca/tile  |             |
 |        | @metreeca/info  |             |
 |        | @metreeca/skin  |             |
+| server | @metreeca/rest  |             |
 
 # Getting Started
 
@@ -33,10 +32,10 @@ loosely coupled and may be easily plugged as a specialized component into your t
 
 # Support
 
-- open an [issue](https://github.com/metreeca/tool/issues) to report a problem or to suggest a new feature
-- start a [discussion](https://github.com/metreeca/tool/discussions) to ask a how-to question or to share an idea
+- open an [issue](https://github.com/metreeca/node/issues) to report a problem or to suggest a new feature
+- start a [discussion](https://github.com/metreeca/node/discussions) to ask a how-to question or to share an idea
 
 # License
 
-This project is licensed under the Apache 2.0 License – see [LICENSE](https://github.com/metreeca/tool/blob/main/LICENSE)
+This project is licensed under the Apache 2.0 License – see [LICENSE](https://github.com/metreeca/node/blob/main/LICENSE)
 file for details.

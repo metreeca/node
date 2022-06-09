@@ -1,0 +1,9 @@
+{
+    "name": "@metreeca/tile",
+    "version": "0.0.0",
+    "description": "React visual components",
+    "main": "../../../../Projects/EC2U/Data/src/main/javascript/@metreeca/tool/index.ts",
+    "dependencies": {
+        "@metreeca/tool": "^0.0.0"
+    }
+}
